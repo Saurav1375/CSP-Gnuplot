@@ -13,9 +13,6 @@ set title "Monthly Product Sales"
 set xlabel "Products"
 set ylabel "Sales (Units)"
 
-# Define product names to be displayed on the x-axis
-
-# Plot each month as a separate data series for stacking
 plot 'company_sales_data.csv' using 2:key(1) title columnhead, '' u 3 title columnhead, '' u 4 title columnhead ,\
 '' u 5 title columnhead, '' u 6 title columnhead, '' u 7 title columnhead
      
