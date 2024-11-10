@@ -111,7 +111,7 @@ Identifies the top 3 products by yearly sales and generates a line plot for each
 ./plot_h.sh
 ```
 
-### 8. Show June Sales for Each Product (Pie Chart)
+### 9. Show June Sales for Each Product (Pie Chart)
 
 Creates a pie chart showing sales for each product in June.
 
